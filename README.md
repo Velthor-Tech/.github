@@ -10,23 +10,25 @@
   alguien entra a github.com/velthortech
 
   📝 PARA EDITAR ANTES DE PUBLICAR:
-  1. Reemplazar [BANNER-URL] con la URL del banner real
-     (subirlo a este mismo repo en /assets/ o usar el de un CDN)
+  1. Subir los 2 banners al repo en `.github/profile/assets/`
+     - banner-hero.png (panorámico, "Sistemas a medida. Código que escala.")
+     - banner-cierre.png (cuadrado-ish, mismo tagline — regenerar para
+       que coincida con el del hero)
   2. Reemplazar [EMAIL] con el email de contacto cuando lo tengan
   3. Reemplazar [SITIO] con velthortech.com cuando esté la landing
   4. Reemplazar [CAL-LINK] con el link de Cal.com cuando esté
+
+  Las URLs de los banners están con la ruta relativa al repo `.github`,
+  asumiendo que subís los archivos a /profile/assets/. Si los subís a
+  otra ruta, ajustá los src de los <img>.
 ─────────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<!-- Banner principal — reemplazar con la URL del banner LinkedIn de marca -->
-<img src="[BANNER-URL]" alt="Velthortech" width="100%" />
+<!-- Banner principal — panorámico -->
+<img src="./profile/assets/banner-hero.png" alt="Velthortech — Sistemas a medida. Código que escala." width="100%" />
 
 <br/>
-<br/>
-
-**Construimos software a medida para PyMEs de Argentina y LATAM.**
-
 <br/>
 
 [![Sitio web](https://img.shields.io/badge/web-velthortech.com-00FFD1?style=for-the-badge&labelColor=0A0E0D)](https://[SITIO])
@@ -81,6 +83,12 @@ Si tenés un proyecto en la cabeza y querés que lo conversemos, escribinos.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@velthortech-0A0E0D?style=for-the-badge&logo=linkedin&logoColor=00FFD1)](https://linkedin.com/company/velthortech)
 [![Instagram](https://img.shields.io/badge/Instagram-@velthortech-0A0E0D?style=for-the-badge&logo=instagram&logoColor=00FFD1)](https://instagram.com/velthortech)
 [![X](https://img.shields.io/badge/X-@velthortech-0A0E0D?style=for-the-badge&logo=x&logoColor=00FFD1)](https://x.com/velthortech)
+
+<br/>
+<br/>
+
+<!-- Banner de cierre — la frase queda flotando como firma -->
+<img src="./profile/assets/banner-cierre.png" alt="Velthortech" width="60%" />
 
 <br/>
 <br/>
