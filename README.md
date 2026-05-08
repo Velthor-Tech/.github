@@ -39,7 +39,6 @@
 
 ---
 
-## Hola 👋
 
 Somos una agencia boutique de desarrollo. Trabajamos con empresas que necesitan un sistema a medida — un CRM propio, un panel interno, un dashboard para su operación — y no quieren irse a una solución genérica que termine costándoles más en el largo plazo.
 
