@@ -1,32 +1,7 @@
-<!--
-═══════════════════════════════════════════════════════════════════
-  README de la organización Velthortech en GitHub
-═══════════════════════════════════════════════════════════════════
-
-  Este archivo va en un repo especial llamado `.github` dentro de la
-  organización, en la ruta: `.github/profile/README.md`
-
-  GitHub lo renderiza automáticamente como portada de la org cuando
-  alguien entra a github.com/velthortech
-
-  📝 PARA EDITAR ANTES DE PUBLICAR:
-  1. Subir los 2 banners al repo en `.github/profile/assets/`
-     - banner-hero.png (panorámico, "Sistemas a medida. Código que escala.")
-     - banner-cierre.png (cuadrado-ish, mismo tagline — regenerar para
-       que coincida con el del hero)
-  2. Reemplazar [EMAIL] con el email de contacto cuando lo tengan
-  3. Reemplazar [SITIO] con velthortech.com cuando esté la landing
-  4. Reemplazar [CAL-LINK] con el link de Cal.com cuando esté
-
-  Las URLs de los banners están con la ruta relativa al repo `.github`,
-  asumiendo que subís los archivos a /profile/assets/. Si los subís a
-  otra ruta, ajustá los src de los <img>.
-─────────────────────────────────────────────────────────────────── -->
-
 <div align="center">
 
 <!-- Banner principal — panorámico -->
-<img src="./profile/assets/banner-hero.png" alt="Velthortech — Sistemas a medida. Código que escala." width="100%" />
+<img src="./assets/banner-hero.png" alt="Velthortech — Sistemas a medida. Código que escala." width="100%" />
 
 <br/>
 <br/>
@@ -40,7 +15,6 @@
 <br/>
 
 ---
-
 
 Somos una agencia boutique de desarrollo. Trabajamos con empresas que necesitan un sistema a medida — un CRM propio, un panel interno, un dashboard para su operación — y no quieren irse a una solución genérica que termine costándoles más en el largo plazo.
 
@@ -88,7 +62,7 @@ Si tenés un proyecto en la cabeza y querés que lo conversemos, escribinos.
 <br/>
 
 <!-- Banner de cierre — la frase queda flotando como firma -->
-<img src="./profile/assets/banner-cierre.png" alt="Velthortech" width="60%" />
+<img src="./assets/banner-cierre.png" alt="Velthortech" width="60%" />
 
 <br/>
 <br/>
